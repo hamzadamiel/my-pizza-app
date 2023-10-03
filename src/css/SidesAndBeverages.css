@@ -1,0 +1,118 @@
+.sides-beverages-container {
+  max-width: 1200px;
+  margin: 0 auto; /* Center horizontally */
+  margin-left: 320px !important; /* Adjust this value to move it more to the right */
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  text-align: center; /* Center the content horizontally within the container */
+}
+
+.menu-section {
+  margin-bottom: 20px;
+}
+
+.menu-item {
+  padding: 20px; /* Increase the padding to make it bigger */
+  border: 1px solid #ccc;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-item.selected {
+  background-color: #e6ffe6;
+}
+
+.menu-item h4 {
+  margin: 0;
+}
+
+.menu-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.menu-item button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px; /* Increase padding here too */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menu-item button:hover {
+  background-color: #218838;
+}
+.selected-items-container {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  height: 100%;
+}
+
+.selected-items-container h3 {
+  margin-top: 0;
+}
+
+.selected-items-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.selected-item {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.total-price-section {
+  margin-top: 20px;
+}
+
+.buy-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buy-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.buy-button:hover {
+  background-color: #218838;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-md-6 {
+  flex-basis: calc(50% - 10px); /* Adjust based on your design */
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .col-md-6 {
+    flex-basis: 100%;
+  }
+}

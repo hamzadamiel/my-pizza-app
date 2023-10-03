@@ -1,0 +1,219 @@
+{
+  "bases": [
+    { "name": "Thin Italian", "price": 0.0 },
+    { "name": "Stone Crust", "price": 1.0 },
+    { "name": "Cheese Stuffed Crust", "price": 2.0 },
+    { "name": "Vegan", "price": 1.5 },
+    { "name": "Gluten-Free", "price": 2.5 }
+  ],
+  "toppings": [
+    { "name": "Tomato Sauce", "price": 0.2 },
+    { "name": "Mozzarella", "price": 0.2 },
+    { "name": "Pepperoni", "price": 0.2 },
+    { "name": "Bell Peppers", "price": 0.2 },
+    { "name": "Onions", "price": 0.2 },
+    { "name": "Olives", "price": 0.2 },
+    { "name": "Mushrooms", "price": 0.2 },
+    { "name": "Vegan Cheese", "price": 0.2 },
+    { "name": "Spinach", "price": 0.2 },
+    { "name": "Artichokes", "price": 0.2 }
+  ],
+  "pizzas": [
+    {
+      "name": "Classic Veg",
+      "description": "Classic vegetarian pizza with tomato sauce and mozzarella cheese.",
+      "image": "classic-veg.jpg",
+      "is_vegan": true,
+      "is_gluten_free": false,
+      "size_prices": {
+        "Small": 10.99,
+        "Medium": 12.99,
+        "Large": 14.99,
+        "Pizzanormous": 16.99
+      }
+    },
+    {
+      "name": "Crisp 'n Lite",
+      "description": "Crisp and light pizza with tomato sauce, mozzarella cheese, and fresh basil.",
+      "image": "crisp-n-lite.jpg",
+      "is_vegan": false,
+      "is_gluten_free": true,
+      "size_prices": {
+        "Small": 11.99,
+        "Medium": 13.99,
+        "Large": 15.99,
+        "Pizzanormous": 17.99
+      }
+    },
+    {
+      "name": "Deluxe Margherita",
+      "description": "Deluxe margherita pizza with tomato sauce, mozzarella cheese, and basil.",
+      "image": "deluxe-margherita.jpg",
+      "is_vegan": false,
+      "is_gluten_free": true,
+      "size_prices": {
+        "Small": 12.99,
+        "Medium": 14.99,
+        "Large": 16.99,
+        "Pizzanormous": 18.99
+      }
+    },
+    {
+      "name": "Magherita",
+      "description": "Classic margherita pizza with tomato sauce and mozzarella cheese.",
+      "image": "margherita.jpg",
+      "is_vegan": false,
+      "is_gluten_free": false,
+      "size_prices": {
+        "Small": 10.99,
+        "Medium": 12.99,
+        "Large": 14.99,
+        "Pizzanormous": 16.99
+      }
+    },
+    {
+      "name": "Plain Cheese",
+      "description": "Plain cheese pizza with tomato sauce and mozzarella cheese.",
+      "image": "plain-cheese.jpg",
+      "is_vegan": true,
+      "is_gluten_free": false,
+      "size_prices": {
+        "Small": 9.99,
+        "Medium": 11.99,
+        "Large": 13.99,
+        "Pizzanormous": 15.99
+      }
+    },
+    {
+      "name": "Spicy Veg",
+      "description": "Spicy vegetarian pizza with tomato sauce, mozzarella cheese, bell peppers, and jalapeños.",
+      "image": "spicy-veg.jpg",
+      "is_vegan": true,
+      "is_gluten_free": true,
+      "size_prices": {
+        "Small": 11.99,
+        "Medium": 13.99,
+        "Large": 15.99,
+        "Pizzanormous": 17.99
+      }
+    },
+    {
+      "name": "Supreme Veg",
+      "description": "Supreme vegetarian pizza with tomato sauce, mozzarella cheese, bell peppers, onions, olives, and mushrooms.",
+      "image": "supreme-veg.jpg",
+      "is_vegan": true,
+      "is_gluten_free": false,
+      "size_prices": {
+        "Small": 12.99,
+        "Medium": 14.99,
+        "Large": 16.99,
+        "Pizzanormous": 18.99
+      }
+    },
+    {
+      "name": "Tandoori Paneer",
+      "description": "Tandoori paneer pizza with tandoori sauce, mozzarella cheese, paneer, bell peppers, and red onions.",
+      "image": "tandoori-paneer.jpg",
+      "is_vegan": true,
+      "is_gluten_free": false,
+      "size_prices": {
+        "Small": 13.99,
+        "Medium": 15.99,
+        "Large": 17.99,
+        "Pizzanormous": 19.99
+      }
+    },
+    {
+      "name": "Tex-Mex Paneer",
+      "description": "Tex-Mex paneer pizza with tomato sauce, mozzarella cheese, paneer, bell peppers, onions, and jalapeños.",
+      "image": "texmex-panner.jpg",
+      "is_vegan": false,
+      "is_gluten_free": false,
+      "size_prices": {
+        "Small": 13.99,
+        "Medium": 15.99,
+        "Large": 17.99,
+        "Pizzanormous": 19.99
+      }
+    },
+    {
+      "name": "Ultimate Vegetarian",
+      "description": "Ultimate vegetarian pizza with tomato sauce, mozzarella cheese, bell peppers, onions, olives, mushrooms, and corn.",
+      "image": "ultimate-vegetarian.jpg",
+      "is_vegan": true,
+      "is_gluten_free": false,
+      "size_prices": {
+        "Small": 14.99,
+        "Medium": 16.99,
+        "Large": 18.99,
+        "Pizzanormous": 20.99
+      }
+    },
+    {
+      "name": "Veg Bonanza",
+      "description": "Veg bonanza pizza with tomato sauce, mozzarella cheese, bell peppers, onions, olives, mushrooms, and baby corn.",
+      "image": "veg-bonanza.jpg",
+      "is_vegan": true,
+      "is_gluten_free": true,
+      "size_prices": {
+        "Small": 14.99,
+        "Medium": 16.99,
+        "Large": 18.99,
+        "Pizzanormous": 20.99
+      }
+    },
+    {
+      "name": "Vegetariana",
+      "description": "Vegetariana pizza with tomato sauce, mozzarella cheese, bell peppers, onions, olives, mushrooms, and spinach.",
+      "image": "vegetariana.jpg",
+      "is_vegan": true,
+      "is_gluten_free": false,
+      "size_prices": {
+        "Small": 13.99,
+        "Medium": 15.99,
+        "Large": 17.99,
+        "Pizzanormous": 19.99
+      }
+    },
+    {
+      "name": "Veggie Delight Pizza",
+      "description": "Veggie delight pizza with tomato sauce, mozzarella cheese, bell peppers, onions, olives, mushrooms, and jalapeños.",
+      "image": "veggie-delight-pizza.jpg",
+      "is_vegan": true,
+      "is_gluten_free": false,
+      "size_prices": {
+        "Small": 12.99,
+        "Medium": 14.99,
+        "Large": 16.99,
+        "Pizzanormous": 18.99
+      }
+    },
+    {
+      "name": "Veggie Surprise",
+      "description": "Veggie surprise pizza with tomato sauce, mozzarella cheese, bell peppers, onions, olives, mushrooms, and pineapple.",
+      "image": "veggie-surprise.jpg",
+      "is_vegan": true,
+      "is_gluten_free": false,
+      "size_prices": {
+        "Small": 12.99,
+        "Medium": 14.99,
+        "Large": 16.99,
+        "Pizzanormous": 18.99
+      }
+    },
+    {
+      "name": "Woodcutter's",
+      "description": "Woodcutter's pizza with tomato sauce, mozzarella cheese, bacon, ham, and smoked sausage.",
+      "image": "woodcutters.jpg",
+      "is_vegan": false,
+      "is_gluten_free": true,
+      "size_prices": {
+        "Small": 14.99,
+        "Medium": 16.99,
+        "Large": 18.99,
+        "Pizzanormous": 20.99
+      }
+    }
+
+  ]
+}

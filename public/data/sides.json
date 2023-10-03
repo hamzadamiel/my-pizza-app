@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Salad",
+    "description": "Fresh garden salad with mixed greens and dressing.",
+    "price": 3.99
+  },
+  {
+    "name": "Garlic Bread",
+    "description": "Delicious garlic bread with butter and herbs.",
+    "price": 4.49
+  },
+  {
+    "name": "Cheesy Garlic Bread",
+    "description": "Garlic bread topped with melted cheese.",
+    "price": 4.99
+  },
+  {
+    "name": "Coleslaw",
+    "description": "Creamy coleslaw made with fresh vegetables.",
+    "price": 2.99
+  },
+  {
+    "name": "Chicken Wings",
+    "description": "Spicy chicken wings served with dipping sauce.",
+    "price": 7.99
+  }
+]

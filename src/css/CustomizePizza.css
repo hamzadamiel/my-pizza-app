@@ -1,0 +1,67 @@
+.customize-pizza-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+.pizza-title {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Description styles */
+.pizza-description {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Radio and checkbox styles */
+input[type='radio'],
+input[type='checkbox'] {
+  margin-right: 5px;
+}
+
+/* Total price styles */
+.total-price-container {
+  margin-top: 20px;
+}
+
+.total-price {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Buy button styles */
+.buy-button {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.buy-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Back link styles */
+.back-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}

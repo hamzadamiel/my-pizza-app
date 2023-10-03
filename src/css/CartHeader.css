@@ -1,0 +1,63 @@
+/* CartHeader.css */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.header-left {
+  flex: 1; /* Takes up available space on the left */
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Adjust the logo size as needed */
+  height: 50px; /* Adjust the logo size as needed */
+  margin-right: 20px; /* Add margin if needed */
+}
+
+.header-center {
+  flex: 3; /* Takes up available space in the center */
+  display: flex;
+  justify-content: center;
+}
+
+.header-center a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+}
+
+.header-right {
+  flex: 1; /* Takes up available space on the right */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cart-icon {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cart-count {
+  background-color: #ff0000; /* Red background for the cart count circle */
+  color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}

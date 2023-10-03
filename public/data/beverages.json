@@ -1,0 +1,28 @@
+
+[
+  {
+    "name": "Pepsi",
+    "description": "Pepsi soft drink in a 1-liter bottle.",
+    "price": 1.99
+  },
+  {
+    "name": "Pepsi Max",
+    "description": "Pepsi Max soft drink in a 1-liter bottle.",
+    "price": 1.99
+  },
+  {
+    "name": "Dr Pepper",
+    "description": "Dr Pepper soft drink in a 1-liter bottle.",
+    "price": 2.49
+  },
+  {
+    "name": "7-up",
+    "description": "7-up soft drink in a 1-liter bottle.",
+    "price": 1.99
+  },
+  {
+    "name": "Tango",
+    "description": "Tango orange soda in a 1-liter bottle.",
+    "price": 2.49
+  }
+]

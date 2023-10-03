@@ -1,0 +1,20 @@
+{
+  "pizzaHalves": [
+    {
+      "name": "First Half",
+      "options": [
+        { "name": "Margherita", "price": 8.99 },
+        { "name": "Pepperoni", "price": 9.99 },
+        { "name": "Vegetarian", "price": 9.49 }
+      ]
+    },
+    {
+      "name": "Second Half",
+      "options": [
+        { "name": "Hawaiian", "price": 10.99 },
+        { "name": "Meat Lover's", "price": 11.99 },
+        { "name": "Supreme", "price": 10.49 }
+      ]
+    }
+  ]
+}
